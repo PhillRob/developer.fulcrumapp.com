@@ -10,7 +10,7 @@ tags:
 ---
 
 To make sure that inspectors are in proximity of the record when making changes, this example creates a bounding box around the record and rejects changes when the current device location falls outside.
-``` js
+```js
 function validateLocation() 
   {
   // get location of record
