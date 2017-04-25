@@ -21,4 +21,8 @@ Array - selected value(s)
 CHOICEVALUES($choice_field)
 
 // returns ["Red","Green","Blue"]
+
+CHOICEVALUES($choice_field)[1]
+
+// returns ["Green"]
 ```
